@@ -45,6 +45,9 @@ async function searchMovie(){
   let result = document.getElementById("results");
   let img = document.getElementsByTagName("img");
 
+  let img2= document.getElementsByTagName("img");
+  let img3 = document.getElementsByTagName("img");
+
   result.innerHTML = data2.totalResults
   for(let i=0;i<6;i++){
     title[i].innerHTML = data2.Search[i].Title;
